@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 function TodoItem(props) {
 
+    // styling for every todo item
     function getStyle() {
         return {
             background: '#f4f4f4',
@@ -11,7 +12,12 @@ function TodoItem(props) {
             textDecoration: props.todoitem.completed ?
             'line-through' : 'none'
         };
-    }    
+    }
+    
+    // matches the value of the checkbox to the value of the todoitem
+    function checkValue() {
+        return props.todoitem.completed ? true : false;
+    }
 
     // destructure
     const { id, title } = props.todoitem;
@@ -19,7 +25,7 @@ function TodoItem(props) {
     return (
         <div style={getStyle()}>
             <p>
-                <input type='checkbox' onChange={props.toggleComplete.bind(this, id)}/>
+                <input type='checkbox' onChange={props.toggleComplete.bind(this, id)} checked={checkValue()}/>
                 {title}
                 <button style={btnStyle} onClick={props.deleteTodoItem.bind(this, id)}>x</button>
             </p>
