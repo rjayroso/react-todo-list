@@ -64,7 +64,7 @@ function App() {
       <div className="App">
         <div className="container">
           <Header />
-          <Route exact path="/react-todo-list" render={props => (
+          <Route exact path="/react-todo-list/" render={props => (
             <React.Fragment>
               <AddTodo addTodoItem={addTodoItem}/>
               <Todos 
