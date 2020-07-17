@@ -1,6 +1,6 @@
 # Todo List
 Todo List is a React app that pulls from a [dummy online REST API](https://jsonplaceholder.typicode.com) to populate a list of tasks.
-This is a mini project of mine in which I have learned from a course provided by [Traversy Media](https://www.traversymedia.com/).
+This is a mini practice project of mine in which I have learned from a course provided by [Traversy Media](https://www.traversymedia.com/).
 ## Features :zap:
 - A responsive one page layout built with React 
 - JSON array management via online web API
