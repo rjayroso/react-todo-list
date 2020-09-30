@@ -33,7 +33,6 @@ npm start
 ```
 Once it has successfuly compiled, you can go to http://localhost:3000/ to see the development server in action.
 ## Author :book:
-- [Royce Ayroso-Ong](https://github.com/rjayroso)
 - Credit to [Traversy Media](https://www.traversymedia.com/) for their amazing web development courses.
 ## License :page_facing_up:
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/rjayroso/react-todo-list/blob/master/LICENSE) file for details.
